@@ -6,7 +6,7 @@ const resList = [
     "avgRating": "3.2",
     "distance": 32,
     "costForTwo": 400,
-    "image": "https://uppercrustindia.com/v3/media/postassets/2025/Apr/24/image-20250424171417-4_0.jpeg"
+    "image": "https://images.saymedia-content.com/.image/t_share/MTc0NDI4ODk1MTg0MjMzODMy/10-indian-pork-dishes-everyone-must-try.jpg"
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@ const resList = [
     "avgRating": "4.1",
     "distance": 15,
     "costForTwo": 350,
-    "image": "https://uppercrustindia.com/v3/media/postassets/2025/Apr/24/image-20250424171417-4_0.jpeg"
+    "image": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2020/04/crisp-skinned-chicken-breast-768x960.jpg"
   },
   {
     "id": "3",
@@ -24,7 +24,7 @@ const resList = [
     "avgRating": "3.9",
     "distance": 45,
     "costForTwo": 500,
-    "image": "https://uppercrustindia.com/v3/media/postassets/2025/Apr/24/image-20250424171417-4_0.jpeg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeo_JMT1ZvwUNMHneItLQcNgYbwRsSs2mqYA&s"
   },
   {
     "id": "4",
@@ -33,7 +33,7 @@ const resList = [
     "avgRating": "4.0",
     "distance": 10,
     "costForTwo": 300,
-    "image": "https://uppercrustindia.com/v3/media/postassets/2025/Apr/24/image-20250424171417-4_0.jpeg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrP-Z3W8lABKpzv1i4P7YkghkQ1YCq3oa_Ag&s"
   },
   {
     "id": "5",
@@ -42,7 +42,7 @@ const resList = [
     "avgRating": "4.3",
     "distance": 25,
     "costForTwo": 250,
-    "image": "https://uppercrustindia.com/v3/media/postassets/2025/Apr/24/image-20250424171417-4_0.jpeg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOtu-ncCblELyt1CohBrbgXYrUch22lZcy7Q&s"
   },
   {
     "id": "6",
@@ -60,7 +60,7 @@ const resList = [
     "avgRating": "4.5",
     "distance": 5,
     "costForTwo": 600,
-    "image": "https://uppercrustindia.com/v3/media/postassets/2025/Apr/24/image-20250424171417-4_0.jpeg"
+    "image": "https://media.self.com/photos/65aabbe22c881a10d3bf5eb7/4:3/w_320%2Cc_limit/6_small-batch-japanese-curry-recipe.jpg"
   },
   {
     "id": "8",
@@ -78,7 +78,7 @@ const resList = [
     "avgRating": "4.2",
     "distance": 30,
     "costForTwo": 200,
-    "image": "https://uppercrustindia.com/v3/media/postassets/2025/Apr/24/image-20250424171417-4_0.jpeg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRARkF_sNvyqYybgU_t1IXe6jd2lS3ZP-qLEw&s"
   },
   {
     "id": "10",
@@ -87,7 +87,7 @@ const resList = [
     "avgRating": "4.0",
     "distance": 18,
     "costForTwo": 400,
-    "image": "https://uppercrustindia.com/v3/media/postassets/2025/Apr/24/image-20250424171417-4_0.jpeg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhXdo4FN71sumGsinjbftiAJtQU51hi-tQJw&s"
   }
 ];
 

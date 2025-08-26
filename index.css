@@ -3,6 +3,7 @@
   justify-content: space-between;
   border: 1px solid black;
   align-items: center;
+  background-color: #f0f0f0;
 }
 
 .logo {
@@ -13,7 +14,21 @@
     height: auto;
   }
 }
+.search {
+  padding: 10px;
+  font-size: large;
+  border: 1px solid black;
+  background-color: tomato;
+  border-radius: 5px;
+  width: 80px;
+  height: auto;
+  font-family: sans-serif;
+  align-items: center;
+  margin: 15px;
+  cursor: pointer;
 
+
+}
 .nav-items ul {
     display: flex;
     list-style: none;
@@ -34,14 +49,19 @@
 }
 
 .res-card {
-    border: 1px solid black;
+    
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
     height: 400px;
     width: 250px;
-    background-color: azure;
+    background-color: #f0f0f0;
     text-align: center;
+}
+.res-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+  border: 1px solid black;
 }
 .res-img {
     width: 100%;
