@@ -1,36 +1,35 @@
 import RestaurantCard from "./RestaurantCard";
 import resList from "../utils/ResData";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Body = () => {
-const [res,setRes] =useState(resList);
- 
-const filtered = res.filter((res) => res.avgRating > 4);
-
-
-const testfilter = res.filter((res) =>
-  res.cuisine.some((cuisine) => cuisine.includes("burger"))
-);
-
-console.log(testfilter);
-
-
+  const restaurant = resList[0].data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
+  const [res, setRes] = useState(restaurant);
 
   
-  return(
-  <div className="body">
-    <div className="search">search</div>
-    <div>
-      <button className="filter-btn" onClick={() => {setRes(filtered)} }>Top rated restaurants</button>
-    </div>
-    <button className="filter-test" onClick={() => {setRes(testfilter)}}>Test Filter</button>
 
-    <div className="res-container">
-     {res.map((res) => (
-       <RestaurantCard key={res.id} resData={res} />
-     ))}
+  return (
+    <div className="body">
+      <input type="text" placeholder="Search..." />
+      <button className="search">search</button>
+      <div>
+        <button
+          className="filter-btn"
+          onClick={() => {
+            const filtered = res.filter((restaurant) => restaurant.info.avgRating > 4.4);
+            setRes(filtered);
+          }}
+        >
+          Top rated restaurants
+        </button>
+      </div>
+
+      <div className="res-container">
+        {res.map((restaurants) => (
+          <RestaurantCard key={restaurants.info.id} resData={restaurants} />
+        ))}
+      </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 export default Body;
